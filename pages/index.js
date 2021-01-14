@@ -11,12 +11,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bienvenue sur <a href="https://nextjs.org">Cobelt Capital!</a>
+          Rdv sur <a href="/about">about!</a>
         </h1>
 
         <p className={styles.description}>
           Le meilleur de l'invest en Suisse
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}></code>
         </p>
 
         <div className={styles.grid}>
