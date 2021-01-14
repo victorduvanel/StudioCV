@@ -11,11 +11,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bienvenue sur<a href="https://nextjs.org">Cobelt Capital!</a>
+          Bienvenue sur <a href="https://nextjs.org">Cobelt Capital!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Le meilleur de l'invest en Suisse
           <code className={styles.code}>pages/index.js</code>
         </p>
 
