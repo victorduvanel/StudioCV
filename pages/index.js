@@ -5,46 +5,44 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Studio CV | The only way to stand out.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Rdv sur <a href="/about">about!</a>
-        </h1>
+        <img href="/" className={styles.logo} src="/logo.svg"  alt="logo" />
 
         <p className={styles.description}>
-          Le meilleur de l'invest en Suisse
+          Bienvenue sur la première plateforme de CV vidéo de Suisse !
           <code className={styles.code}></code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/" className={styles.card}>
+            <h3>Trouver un candidat &rarr;</h3>
+            <p>Effectuez une recherche par secteur d'activité.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/" className={styles.card}>
+            <h3>Parcourir les vidéos &rarr;</h3>
+            <p>Découvrez un maximum de vidéos en un coup d'oeil</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Obtenir sa vidéo &rarr;</h3>
+            <p>Inscrivez-vous, nous prendrons rendez-vous, c'est gratuit !</p>
+          </a>
+
+          <a
+            href="/"
+            className={styles.card}
+          >
+            <h3>Postuler chez Studio CV &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Découvrez nos offres d'emplois et rejoignez notre équipe.
             </p>
           </a>
         </div>
@@ -52,12 +50,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://theplayground.ch"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Powered by The Playground
         </a>
       </footer>
     </div>
